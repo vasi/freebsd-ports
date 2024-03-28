@@ -21,6 +21,8 @@ SFPATH=		ini-files/files/ini-files/ini-files-${PORTVERSION}
 PORTDOCS=	ini_file_manager.txt
 PORTEXAMPLES=	example.gpr test_config.adb runme.sh
 
+BUILD_DEPENDS=  gprbuild>0:devel/gprbuild
+
 OPTIONS_DEFINE=	DOCS EXAMPLES
 
 post-extract:

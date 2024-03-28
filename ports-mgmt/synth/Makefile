@@ -12,9 +12,10 @@ LICENSE=	ISCL
 LICENSE_FILE=	${WRKSRC}/License.txt
 
 BUILD_DEPENDS=	${GPR}/ini_file_manager.gpr:misc/ini_file_manager \
-		${GPR}/adacurses.gpr:devel/adacurses
+		${GPR}/adacurses.gpr:devel/adacurses \
+		gprbuild>0:devel/gprbuild
 
-USES=		ada:6 ncurses:base
+USES=		ada ncurses:base
 USE_GITHUB=	yes
 GH_ACCOUNT=	jrmarino
 

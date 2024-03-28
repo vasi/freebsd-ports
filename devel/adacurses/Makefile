@@ -12,6 +12,7 @@ WWW=		https://invisible-island.net/ncurses/ncurses-Ada95.html
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/README
 
+BUILD_DEPENDS=  gprbuild>0:devel/gprbuild
 #BUILD_DEPENDS=	gsed:textproc/gsed
 #BINARY_ALIAS=	sed=${LOCALBASE}/bin/gsed
 
